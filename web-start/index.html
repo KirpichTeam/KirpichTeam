@@ -111,6 +111,18 @@
 <!-- ***********************************************************************************************************************
      * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
      *********************************************************************************************************************** -->
-<script src="scripts/main.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDZkZRSnUGhYbFo92QC8tNdz3OqhH-6pB4",
+    authDomain: "chatmessenger-bdd33.firebaseapp.com",
+    databaseURL: "https://chatmessenger-bdd33.firebaseio.com",
+    storageBucket: "chatmessenger-bdd33.appspot.com",
+    messagingSenderId: "210218897138"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
